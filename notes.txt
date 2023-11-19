@@ -1,0 +1,8 @@
+-- The prject used AlexBrush and Montserrat from google fonts. 
+-- A json object was used to house all the data used in the project and serve as a database.
+-- Mock API was installed by running [npm i json-server -g].
+-- The database was connected by [json-server --watch --port 4000 ./_data/db.json] with gitbash.
+
+-- Other packages used and installed were [npm i swr swiper tailwind-scrollbar react-icons react-parallax-mouse    react-responsive react-type-animation react-scroll react-audio-play framer-motion].
+-- Run the program with npm run dev.
+-- Credit to [https://www.youtube.com/@cristianmihai01].

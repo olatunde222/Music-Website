@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary font-montserrat text-white;
+}
+/* Custom Class  */
+.pretitle {
+  @apply font-alexBrush text-[42px] text-accent leading-none;
+}
+.h2 {
+  @apply text-[32px] xl:text-[38px] font-semibold leading-tight;
+}
+.btn {
+  @apply w-full rounded-full cursor-pointer transition-all flex justify-center items-center font-medium;
+}
+.btn-sm {
+  @apply w-[146px] h-[50px];
+}
+
+.btn-lg {
+  @apply w-[168px] h-[54px];
+}
+
+.btn-accent {
+  @apply bg-accent text-white hover:bg-accent/80;
+}
+
+.btn-white {
+  @apply bg-white text-primary hover:bg-white/80;
+}
+
+.section {
+  @apply py-12 xl:py-24;
+}
+
+/* Main Player */
+.rap-progress {
+  @apply bg-[#6519c8];
+}
+
+.rap-pin {
+  @apply bg-white;
+}
+
+.rap-container .rap-slider .rap-progress .rap-pin {
+  @apply !w-[14px] !h-[14px] !bg-white;
+}
+
+.rap-container .rap-slider .rap-progress .rap-pin:hover {
+  @apply scale-[1.2] transition-all duration-300;
+}
+
+.rap-container {
+  @apply !p-0;
+}
+
+.rap-container .rap-pp-button {
+  @apply w-[14px];
+}
+
+.rap-container .rap-volume .rap-slider-btn svg {
+  @apply w-[22px];
+}
+
+.rap-container .rap-pp-button svg path,
+.rap-container .rap-volume .rap-volume-btn svg path{
+  @apply fill-accent
+}
+
+.rap-current-time, .rap-total-time{
+  @apply font-montserrat text-[13px] font-medium
+}
+.rap-container .rap-slider{
+  @apply !bg-[#33335b] !h-[2px]
+}
+
+.rap-container .rap-controls span{
+  @apply text-[15px]
+}
+
+.rap-volume-btn-rap-volume-open svg path{
+  @apply fill-white
+}
+
+.rap-volume-controls{
+  @apply !bg-primary/80
+}
