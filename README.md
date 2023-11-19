@@ -1,3 +1,9 @@
+![image](https://github.com/olatunde222/Music-Website/assets/115417709/f825c5a9-f647-4d9e-a086-78ce0617ddd8)
+
+![image](https://github.com/olatunde222/Music-Website/assets/115417709/ff00ad5d-ce57-4d26-986a-d1c38a8fe46d)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
